@@ -1,0 +1,14 @@
+[workspace]
+authors = ["André Favalessa <andrefavalessa@gmail.com>"]
+channels = ["conda-forge"]
+name = "exercicio_geopandas"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.14.3,<3.15"
+pandas = ">=3.0.1,<4"
+geopandas = ">=1.1.2,<2"
+shapely = ">=2.1.2,<3"
