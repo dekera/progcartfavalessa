@@ -1,0 +1,16 @@
+[workspace]
+authors = ["André Favalessa <andrefavalessa@gmail.com>"]
+channels = ["conda-forge"]
+name = "janela"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[target.win-64.activation]
+scripts = ["activate-designer.bat"]
+
+[tasks]
+
+[dependencies]
+python = ">=3.14.3,<3.15"
+pyqt6 = ">=6.8.1,<7"
+qgis = ">=3.44.7,<4"
